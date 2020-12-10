@@ -37,10 +37,11 @@ header{
 
 .logo{
     background: url("../img/photoguy.jpeg");
-   /* background-position: center; */
+    /*background-position: center; */
     background-repeat: no-repeat;
+    margin-bottom: 0;
     background-size: cover;
-    min-height: 360px;
+    min-height: 362px;
     transition: all 5s ease-in-out;
     -moz-transition: all 5s ease-in-out;
     -webkit-transition: all 5s ease-in-out;
@@ -75,6 +76,8 @@ header{
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
+
+
 
 #nav li{
     font-size: 14px;
@@ -111,4 +114,13 @@ header{
     font-weight: 300;
     font-size: 14px;
     letter-spacing: 2px;
+}
+
+
+
+/*-------Hoover.css------*/
+
+.hvr-sweep-to-bottom::before {
+	background-color: rgba(0,0,0,0.2) !important;
+	
 }
