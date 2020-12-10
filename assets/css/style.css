@@ -37,7 +37,7 @@ header{
 
 .logo{
     background: url("../img/photoguy.jpeg");
-    background-position: center;
+   /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -66,10 +66,49 @@ header{
 
 .menucontainer{
     font-size: 0;
+	padding: 0;
+    margin:0;
+
+}
+
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
 }
 
 #nav li{
     font-size: 14px;
+    padding: 0;
+
+}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
     padding:0;
 }
 
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
